@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { convertEnglishToRegex } from "../src/converter.js";
-// import { process } from "node:process";
+import { process } from "node:process";
 const input = process.argv.slice(2).join(" ");
 if (!input) {
   console.log('Usage: engrex "describe pattern in English"');

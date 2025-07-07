@@ -2,6 +2,10 @@
 
 # Engrex 🧪
 
+[![npm version](https://img.shields.io/npm/v/engrex.svg)](https://www.npmjs.com/package/engrex)
+[![npm downloads](https://img.shields.io/npm/dm/engrex.svg)](https://www.npmjs.com/package/engrex)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **English to Regex CLI Tool**  
 Convert human-readable instructions into regular expressions.
 
