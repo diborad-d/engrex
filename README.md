@@ -1,7 +1,5 @@
 # Engex
 
-### license: MIT
-
 # Engrex 🧪
 
 **English to Regex CLI Tool**  
@@ -95,3 +93,4 @@ Please refer to the [Engex Wiki](https://github.com/diborad-d/engrex/wiki/Engrex
 - Create a clear PR title and description
 - Run tests before submitting
 - Ensure your changes are well-documented
+### license: MIT
