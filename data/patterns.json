@@ -130,5 +130,17 @@
     "regex": "#[a-zA-Z_][a-zA-Z0-9_-]*",
     "explanation": "Matches CSS ID selectors starting with a hash",
     "category": "web"
+  },
+  {
+    "pattern": "Git tag name",
+    "regex": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,38}[a-zA-Z0-9]$",
+    "explanation": "Matches valid Git tag names",
+    "category": "version control"
+  },
+  {
+    "pattern": "Git branch name",
+    "regex": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,38}[a-zA-Z0-9]$",
+    "explanation": "Matches valid Git branch names",
+    "category": "version control"
   }
 ]
