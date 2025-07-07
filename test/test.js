@@ -1,4 +1,4 @@
-import { convertEnglishToRegex } from "../src/convertEnglishToRegex.js";
+import { convertEnglishToRegex } from "../src/converter.js";
 const tests = [
   "5 digit zip code",
   "us phone number",

@@ -93,4 +93,6 @@ Please refer to the [Engex Wiki](https://github.com/diborad-d/engrex/wiki/Engrex
 - Create a clear PR title and description
 - Run tests before submitting
 - Ensure your changes are well-documented
+- git branch name should be descriptive (e.g., `feat/add-new-pattern`, `fix/regex-bug`)
+
 ### license: MIT
