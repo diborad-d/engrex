@@ -27,7 +27,7 @@ Output:
 \b\d{5}\b
 
 💡 Explanation:
-Matches exactly 5 digits (U.S. ZIP code)
+Matches a U.S. phone number with optional separators (matched: "us phone number", confidence: 80%)
 ```
 
 ## 📂 Directory Structure
