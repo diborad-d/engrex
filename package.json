@@ -1,12 +1,14 @@
 {
-  "name": "engex",
+  "name": "engrex",
   "version": "1.0.0",
-  "description": "![CI](https://github.com/diborad-d/engrex/actions/workflows/ci.yml/badge.svg) [![NPM version](https://img.shields.io/npm/v/engrex.svg)](https://www.npmjs.com/package/engrex) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Convert English to Regex from CLI",
+  "bin": {
+    "engrex": "./bin/engrex.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "dependencies": {
+    "string-similarity": "^4.0.4"
+  }
 }
