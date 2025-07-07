@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { convertEnglishToRegex } from "../lib/converter.js";
+import { convertEnglishToRegex } from "../src/converter.js";
 
 const input = process.argv.slice(2).join(" ");
 if (!input) {
@@ -9,4 +9,3 @@ if (!input) {
 
 const { regex, explanation } = convertEnglishToRegex(input);
 console.log(`\n🧪 Regex:\n${regex}\n\n💡 Explanation:\n${explanation}\n`);
-console.log("Thank you for using Engrex! If you found this tool helpful, please consider supporting its development by sharing it with others or contributing to the project.");

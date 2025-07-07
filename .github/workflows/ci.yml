@@ -1,0 +1,35 @@
+name: Regex CLI CI
+
+on:
+  push:
+    paths:
+      - "lib/**"
+      - "data/**"
+      - "test/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "lib/**"
+      - "data/**"
+      - "test/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: node test/test.js
+      - name: Run linter
+        run: npm run lint
