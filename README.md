@@ -8,8 +8,8 @@ Convert human-readable instructions into regular expressions.
 ## 🔧 Installation
 
 ```bash
-git clone git@github.com:diborad-d/Engex.git
-cd Engex
+git clone git@github.com:diborad-d/engrex.git
+cd engrex
 npm install
 npm link
 ```
