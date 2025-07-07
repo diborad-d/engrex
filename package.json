@@ -8,6 +8,14 @@
   "type": "module",
   "author": "Dibora D",
   "license": "MIT",
+  "keywords": [
+    "regex",
+    "cli",
+    "english-to-regex",
+    "converter",
+    "natural language",
+    "fuzzy matching"
+  ],
   "dependencies": {
     "string-similarity": "^4.0.4"
   },
